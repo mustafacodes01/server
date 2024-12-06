@@ -1,0 +1,23 @@
+{
+  "name": "yumyum---server",
+  "version": "1.0.0",
+  "description": "YumYum is a food ordring site made with swiggy's api, this server enables us to make api calls directly without getting cors error",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Kunal Salunkhe",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "cross-fetch": "^3.1.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.3",
+    "stripe": "^14.4.0"
+  }
+}
